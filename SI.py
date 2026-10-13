@@ -1,12 +1,12 @@
-import sys 
 
-def simInt(principal,interest,time):
-    return (principal*interest*time)/100
+import sys
 
-if __name__ == "__main__"
+def simInt(principal, interest, time):
+    return (principal * interest * time) / 100
 
-p = int(sys.argv[1])
-i = int(sys.argv[1])
-t = int(sys.argv[1])
+if __name__ == "__main__":
+    p = int(sys.argv[1])
+    i = int(sys.argv[2])
+    t = int(sys.argv[3])
 
-print("simple Interest:",simInt(p,i,t))
+    print("Simple Interest:", simInt(p, i, t))
